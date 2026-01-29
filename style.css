@@ -58,15 +58,15 @@ button {
   font-size: 15px;
   color: aliceblue;
 }
-button:hover{
-    background: black;
+button:hover {
+  background: black;
 }
 .buttons {
-  padding-top: 20px;
+  padding-top: 40px;
 
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   align-items: left;
 }
