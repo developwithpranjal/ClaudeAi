@@ -30,7 +30,7 @@ textarea {
   border-radius: 20px;
   background-color: rgb(57, 55, 55);
   font-size: 20px;
-  position: relative;
+  
   color: white;
   padding: 20px;
   resize: none;
@@ -39,6 +39,9 @@ textarea {
 textarea::placeholder {
   color: rgb(213, 212, 212);
 }
+.text{
+    position: relative;
+}
 
 .text i {
   background-color: rgb(248, 107, 56);
@@ -46,8 +49,8 @@ textarea::placeholder {
   border-radius: 8px;
   color: white;
   position: absolute;
-  top: 57%;
-  right: 27%;
+  bottom: 16px;
+  right: 16px;
 }
 button {
   border-radius: 10px;
@@ -103,11 +106,7 @@ button:hover {
     font-size: 14px;
   }
 
-  .text i {
-    right: 20px;
-    top: 58%;
-    padding: 10px;
-  }
+  
 
   .buttons {
     padding-top: 25px;
